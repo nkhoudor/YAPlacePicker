@@ -46,7 +46,7 @@
 		8650E8AB52AE7FC1E7CD26AC /* Pods-YAPlacePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPlacePicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-YAPlacePicker_Example/Pods-YAPlacePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92D606C04BED1C6EBFE9C8D2 /* Pods-YAPlacePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YAPlacePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-YAPlacePicker_Tests/Pods-YAPlacePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8A20A1C6CCBD07B1944A502 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EB7711BA036C51E25B325E02 /* YAPlacePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YAPlacePicker.podspec; path = ../YAPlacePicker.podspec; sourceTree = "<group>"; };
+		EB7711BA036C51E25B325E02 /* YAPlacePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YAPlacePicker.podspec; path = ../YAPlacePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
