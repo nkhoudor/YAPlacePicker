@@ -1,6 +1,10 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## GoogleMaps
+
+Copyright 2019 Google
+
 ## YAPlacePicker
 
 Copyright (c) 2019 7633277@gmail.com <7633277@gmail.com>

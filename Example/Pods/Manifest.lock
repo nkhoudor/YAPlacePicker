@@ -1,15 +1,26 @@
 PODS:
-  - YAPlacePicker (0.1.4)
+  - GoogleMaps (3.2.0):
+    - GoogleMaps/Maps (= 3.2.0)
+  - GoogleMaps/Base (3.2.0)
+  - GoogleMaps/Maps (3.2.0):
+    - GoogleMaps/Base
+  - YAPlacePicker (0.1.5):
+    - GoogleMaps
 
 DEPENDENCIES:
   - YAPlacePicker (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
 
 EXTERNAL SOURCES:
   YAPlacePicker:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YAPlacePicker: 0e24d89e62db2f385cf693f435e7d7cd99018944
+  GoogleMaps: 5046d7edfe381c1a0b20fdaf293915a375c3122b
+  YAPlacePicker: 6c48bce8167cf383abe837a00de8fc3fd2371692
 
 PODFILE CHECKSUM: c2b4a4a15917c51d3830d8c35892ed16e197555e
 
