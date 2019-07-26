@@ -12,7 +12,7 @@ import GooglePlaces
 
 public typealias YAPlacePickerOnComplete = (GMSPlace?) -> ()
 
-public class YAPlacePicker {
+public class YAPlacePickerBuilder {
     weak var baseVC: UIViewController?
     var completion: YAPlacePickerOnComplete!
     private(set) var searchPlaceholder: String! = "Search for place"
@@ -27,17 +27,17 @@ public class YAPlacePicker {
         self.completion = completion
     }
     
-    public func searchPlaceholder(_ value: String) -> YAPlacePicker {
+    public func searchPlaceholder(_ value: String) -> YAPlacePickerBuilder {
         searchPlaceholder = value
         return self
     }
     
-    public func chooseButtonTitle(_ value: String) -> YAPlacePicker {
+    public func chooseButtonTitle(_ value: String) -> YAPlacePickerBuilder {
         chooseButtonTitle = value
         return self
     }
     
-    public func chooseButtonColor(_ value: UIColor) -> YAPlacePicker {
+    public func chooseButtonColor(_ value: UIColor) -> YAPlacePickerBuilder {
         chooseButtonColor = value
         return self
     }
