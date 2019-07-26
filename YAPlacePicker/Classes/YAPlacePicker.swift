@@ -10,9 +10,9 @@ import Foundation
 import GoogleMaps
 import GooglePlaces
 
-typealias YAPlacePickerOnComplete = (GMSPlace?) -> ()
+public typealias YAPlacePickerOnComplete = (GMSPlace?) -> ()
 
-class YAPlacePicker {
+public class YAPlacePicker {
     weak var baseVC: UIViewController?
     var completion: YAPlacePickerOnComplete!
     private(set) var searchPlaceholder: String! = "Search for place"
