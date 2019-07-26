@@ -21,7 +21,7 @@ public class YAPlacePickerBuilder {
     
     private(set) var gmsApiKey : String!
     
-    init(baseVC: UIViewController, gmsApiKey: String, completion: @escaping YAPlacePickerOnComplete) {
+    public init(baseVC: UIViewController, gmsApiKey: String, completion: @escaping YAPlacePickerOnComplete) {
         self.baseVC = baseVC
         self.gmsApiKey = gmsApiKey
         self.completion = completion
