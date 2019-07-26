@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import YAPlacePicker
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        TestPlacePick.doSomething()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

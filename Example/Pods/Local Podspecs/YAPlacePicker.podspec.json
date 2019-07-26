@@ -1,22 +1,23 @@
 {
   "name": "YAPlacePicker",
-  "version": "0.1.0",
-  "summary": "A short description of YAPlacePicker.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/7633277@gmail.com/YAPlacePicker",
+  "version": "0.1.2",
+  "summary": "Yet Another Place Picker for Google Maps",
+  "description": "YAPlacePicker is a replacement for deprecated GooglePlacePicker",
+  "homepage": "https://github.com/nkhoudor/YAPlacePicker",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "7633277@gmail.com": "7633277@gmail.com"
+    "Nikita Khudorozhkov": "7633277@gmail.com"
   },
   "source": {
-    "git": "https://github.com/7633277@gmail.com/YAPlacePicker.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/nkhoudor/YAPlacePicker.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "YAPlacePicker/Classes/**/*"
+  "source_files": "YAPlacePicker/Classes/*",
+  "swift_version": "4.2"
 }
