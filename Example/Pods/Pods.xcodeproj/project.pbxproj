@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = GoogleMaps;
+			productName = GoogleMaps;
 		};
 /* End PBXAggregateTarget section */
 
@@ -64,9 +65,9 @@
 
 /* Begin PBXFileReference section */
 		0D2441CF3D84AAB000ED4F42A3380E8C /* Pods-YAPlacePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YAPlacePicker_Example.modulemap"; sourceTree = "<group>"; };
-		227D1BA5EDB9103F047E9200160A7710 /* Pods_YAPlacePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YAPlacePicker_Tests.framework; path = "Pods-YAPlacePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		227D1BA5EDB9103F047E9200160A7710 /* Pods_YAPlacePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAPlacePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4490016F65C8DF2A38FB5295C3C87EFC /* YAPlacePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YAPlacePicker-prefix.pch"; sourceTree = "<group>"; };
-		46BE80B1615D6892CDCBA9AAF58E2192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		46BE80B1615D6892CDCBA9AAF58E2192 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		48239A02811E9BECBE8870EE306617DE /* Pods-YAPlacePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YAPlacePicker_Example-Info.plist"; sourceTree = "<group>"; };
 		4CE7425A0068C83B35151DC8B4214764 /* Pods-YAPlacePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YAPlacePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E22DE24E7918B1494C043D78ECB4C8F /* Pods-YAPlacePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YAPlacePicker_Tests.modulemap"; sourceTree = "<group>"; };
@@ -79,6 +80,17 @@
 		668AEF2322C8A3587F2EB419386404EA /* YAPlacePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YAPlacePicker-dummy.m"; sourceTree = "<group>"; };
 		67B4C0ECF7B42342DCBD5F54C891F718 /* Pods-YAPlacePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YAPlacePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E0FFF0B82F3741C6961D1A1706220FC /* Pods-YAPlacePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YAPlacePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		841FFB3422EBBF9300085BCC /* PoweredByGoogleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoweredByGoogleTableViewCell.xib; sourceTree = "<group>"; };
+		841FFB3522EBBF9300085BCC /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		841FFB3622EBBF9300085BCC /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		841FFB3722EBBF9300085BCC /* PoweredByGoogleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoweredByGoogleTableViewCell.swift; sourceTree = "<group>"; };
+		841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInfoView.swift; sourceTree = "<group>"; };
+		841FFB3A22EBBF9300085BCC /* PlaceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceInfoView.xib; sourceTree = "<group>"; };
+		841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleMaps-Bridging-Header.h"; sourceTree = "<group>"; };
+		841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePickerVC.swift; path = YAPlacePicker/Classes/YAPlacePickerVC.swift; sourceTree = "<group>"; };
+		841FFB3D22EBBFB500085BCC /* YAPlacePickerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YAPlacePickerStoryboard.storyboard; path = YAPlacePicker/Classes/YAPlacePickerStoryboard.storyboard; sourceTree = "<group>"; };
+		841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePicker.swift; path = YAPlacePicker/Classes/YAPlacePicker.swift; sourceTree = "<group>"; };
+		841FFB3F22EBBFCD00085BCC /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = YAPlacePicker/Assets/Icons.xcassets; sourceTree = "<group>"; };
 		8455F8694060F20EFF4CF5187CB774A5 /* Pods-YAPlacePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YAPlacePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8876F70FD5FBB312D68E21685B71637B /* YAPlacePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YAPlacePicker.xcconfig; sourceTree = "<group>"; };
 		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
@@ -86,20 +98,20 @@
 		94DB105DD0AAB2143F8A0BFA654A2D81 /* Pods-YAPlacePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YAPlacePicker_Example-dummy.m"; sourceTree = "<group>"; };
 		977B95C55E927D0159B1086EF22AA11E /* Pods-YAPlacePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YAPlacePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9B98DA93A0CBE336F2BEF20D6C3B21BE /* Pods-YAPlacePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YAPlacePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A37AEC231F19A3E0A3C27ED02F74AF30 /* YAPlacePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YAPlacePicker-umbrella.h"; sourceTree = "<group>"; };
 		AAC56DBEC57A1DD85A5023CA7E06CC82 /* YAPlacePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YAPlacePicker-Info.plist"; sourceTree = "<group>"; };
-		ACD3C66BC050938C9CF4F9C924734B26 /* Pods_YAPlacePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YAPlacePicker_Example.framework; path = "Pods-YAPlacePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACD3C66BC050938C9CF4F9C924734B26 /* Pods_YAPlacePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YAPlacePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF19BEFAA862E8C2E6528312F74202 /* Pods-YAPlacePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YAPlacePicker_Example-resources.sh"; sourceTree = "<group>"; };
 		BFB64264D7A8DB7579C6E52AC64A6841 /* Pods-YAPlacePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YAPlacePicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
 		DC96D4D9D0E25BF4E96B9711F79FC848 /* Pods-YAPlacePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YAPlacePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCB2A584D4965E2CFCD13CA5CF08DCF8 /* YAPlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YAPlacePicker.framework; path = YAPlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB2A584D4965E2CFCD13CA5CF08DCF8 /* YAPlacePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YAPlacePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E826A0152BB1CE64BDBDB1E276E748F7 /* Pods-YAPlacePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YAPlacePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2E176FE15D16A731E14F8F865961288 /* YAPlacePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YAPlacePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2E176FE15D16A731E14F8F865961288 /* YAPlacePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YAPlacePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F755C121662DE8E54F0DBFA3659EF047 /* YAPlacePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YAPlacePicker.modulemap; sourceTree = "<group>"; };
-		FDFE1DC2F2F9B2AB9CDEAE8D26BCA407 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FDFE1DC2F2F9B2AB9CDEAE8D26BCA407 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,9 +190,16 @@
 		63389C88BE6F5363A651C287D16514CC /* YAPlacePicker */ = {
 			isa = PBXGroup;
 			children = (
+				841FFB3F22EBBFCD00085BCC /* Icons.xcassets */,
+				841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */,
+				841FFB3D22EBBFB500085BCC /* YAPlacePickerStoryboard.storyboard */,
+				841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */,
+				841FFB3222EBBF9300085BCC /* API */,
+				841FFB3822EBBF9300085BCC /* PlaceInfo */,
 				5012F9BE476D3452BADF1BAA265BD8D2 /* TestService.swift */,
 				1EE9DE30F442571574B163C94724EB42 /* Pod */,
 				FD925D2AFFF3E33BFF0166B51305182A /* Support Files */,
+				841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */,
 			);
 			name = YAPlacePicker;
 			path = ../..;
@@ -236,6 +255,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		841FFB3222EBBF9300085BCC /* API */ = {
+			isa = PBXGroup;
+			children = (
+				841FFB3322EBBF9300085BCC /* searchresults */,
+			);
+			name = API;
+			path = YAPlacePicker/Classes/API;
+			sourceTree = "<group>";
+		};
+		841FFB3322EBBF9300085BCC /* searchresults */ = {
+			isa = PBXGroup;
+			children = (
+				841FFB3422EBBF9300085BCC /* PoweredByGoogleTableViewCell.xib */,
+				841FFB3522EBBF9300085BCC /* ResultTableViewCell.xib */,
+				841FFB3622EBBF9300085BCC /* ResultTableViewCell.swift */,
+				841FFB3722EBBF9300085BCC /* PoweredByGoogleTableViewCell.swift */,
+			);
+			path = searchresults;
+			sourceTree = "<group>";
+		};
+		841FFB3822EBBF9300085BCC /* PlaceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */,
+				841FFB3A22EBBF9300085BCC /* PlaceInfoView.xib */,
+			);
+			name = PlaceInfo;
+			path = YAPlacePicker/Classes/PlaceInfo;
+			sourceTree = "<group>";
+		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +300,6 @@
 				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
 				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
 			);
-			name = GoogleMaps;
 			path = GoogleMaps;
 			sourceTree = "<group>";
 		};
@@ -419,12 +467,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					BCE3DE68053C99B18AAD56BE1F98BD73 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -607,8 +661,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -689,10 +742,14 @@
 			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../GoogleMaps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -800,10 +857,13 @@
 			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "../../GoogleMaps-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

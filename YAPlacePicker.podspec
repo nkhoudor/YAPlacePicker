@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YAPlacePicker'
-  s.version          = '0.1.9'
+  s.version          = '0.2.0'
   s.summary          = 'Yet Another Place Picker for Google Maps'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'YAPlacePicker/Classes/**/*'
+  
+  s.resource_files = 'YAPlacePicker/Assets/**/*'
   
   # s.resource_bundles = {
   #   'YAPlacePicker' => ['YAPlacePicker/Assets/*.png']
