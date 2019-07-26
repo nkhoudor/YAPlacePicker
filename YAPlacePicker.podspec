@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YAPlacePicker'
-  s.version          = '0.1.7'
+  s.version          = '0.1.9'
   s.summary          = 'Yet Another Place Picker for Google Maps'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,9 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.dependency 'GoogleMaps'
+  s.dependency 'GooglePlaces'
+  s.dependency 'RxSwift', '4.5'
+  s.dependency 'RxCocoa', '4.5'
   
   s.static_framework = true
   
