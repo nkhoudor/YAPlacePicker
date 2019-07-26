@@ -1,5 +1,5 @@
 PODS:
-  - YAPlacePicker (0.1.3)
+  - YAPlacePicker (0.1.4)
 
 DEPENDENCIES:
   - YAPlacePicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YAPlacePicker: 56183363a2f59c301cef25447178bf5a407713ab
+  YAPlacePicker: 0e24d89e62db2f385cf693f435e7d7cd99018944
 
 PODFILE CHECKSUM: c2b4a4a15917c51d3830d8c35892ed16e197555e
 
