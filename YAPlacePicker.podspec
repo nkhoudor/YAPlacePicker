@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'YAPlacePicker/Classes/**/*'
+  s.source_files = 'YAPlacePicker/Classes/*'
   
   # s.resource_bundles = {
   #   'YAPlacePicker' => ['YAPlacePicker/Assets/*.png']
