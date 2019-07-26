@@ -1,6 +1,6 @@
 {
   "name": "YAPlacePicker",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "summary": "Yet Another Place Picker for Google Maps",
   "description": "YAPlacePicker is a replacement for deprecated GooglePlacePicker",
   "homepage": "https://github.com/nkhoudor/YAPlacePicker",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/nkhoudor/YAPlacePicker.git",
-    "tag": "0.1.5"
+    "tag": "0.1.7"
   },
   "platforms": {
     "ios": "10.0"

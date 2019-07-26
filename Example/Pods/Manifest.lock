@@ -4,7 +4,7 @@ PODS:
   - GoogleMaps/Base (3.2.0)
   - GoogleMaps/Maps (3.2.0):
     - GoogleMaps/Base
-  - YAPlacePicker (0.1.5):
+  - YAPlacePicker (0.1.7):
     - GoogleMaps
 
 DEPENDENCIES:
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   GoogleMaps: 5046d7edfe381c1a0b20fdaf293915a375c3122b
-  YAPlacePicker: 6c48bce8167cf383abe837a00de8fc3fd2371692
+  YAPlacePicker: 883ba2f5c0acca4344c5475b8a12ff13cc01f8db
 
 PODFILE CHECKSUM: c2b4a4a15917c51d3830d8c35892ed16e197555e
 
