@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YAPlacePicker_Example' do
+  pod 'YAPlacePicker', :path => '../'
+
+  target 'YAPlacePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
