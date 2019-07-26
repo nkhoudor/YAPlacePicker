@@ -1,0 +1,6 @@
+framework module YAPlacePicker {
+  umbrella header "YAPlacePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

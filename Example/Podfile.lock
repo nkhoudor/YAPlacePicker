@@ -1,0 +1,16 @@
+PODS:
+  - YAPlacePicker (0.1.0)
+
+DEPENDENCIES:
+  - YAPlacePicker (from `../`)
+
+EXTERNAL SOURCES:
+  YAPlacePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YAPlacePicker: 0ba4cfcc9f682d595c52d1f1d21b16ba896dd36a
+
+PODFILE CHECKSUM: c2b4a4a15917c51d3830d8c35892ed16e197555e
+
+COCOAPODS: 1.6.1
