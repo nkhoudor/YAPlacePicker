@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import GoogleMaps
 
 public class TestService {
     public static func doSomething() {
+        let _ = GMSMarker()
         print("testtest")
     }
 }
