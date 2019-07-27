@@ -34,6 +34,18 @@ print(place)
 }).show()
 ```
 
+Available customizations (Optional)
+
+```swift
+YAPlacePickerBuilder(baseVC: self, gmsApiKey: ".........", completion: { place in
+print(place)
+})
+.searchPlaceholder("Please start typing")
+.chooseButtonTitle("Choose")
+.chooseButtonColor(UIColor.red)
+.show()
+```
+
 ## Installation
 
 YAPlacePicker is available through [CocoaPods](https://cocoapods.org). To install
