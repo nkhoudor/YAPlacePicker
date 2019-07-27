@@ -276,7 +276,7 @@ public class YAPlacePickerVC: UIViewController {
 }
 
 extension YAPlacePickerVC: CLLocationManagerDelegate {
-    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+    public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         guard status == .authorizedWhenInUse else {
             return
         }
@@ -285,7 +285,7 @@ extension YAPlacePickerVC: CLLocationManagerDelegate {
         mapView.settings.myLocationButton = true
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    public func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.first else {
             return
         }
@@ -295,13 +295,13 @@ extension YAPlacePickerVC: CLLocationManagerDelegate {
 }
 
 extension YAPlacePickerVC: PlaceInfoViewDelegate {
-    func placeChoosen(place: GMSPlace) {
+    public func placeChoosen(place: GMSPlace) {
         completion(place)
     }
 }
 
 extension YAPlacePickerVC: GMSMapViewDelegate {
-    func mapView(_ mapView: GMSMapView, didTapPOIWithPlaceID placeID: String, name: String, location: CLLocationCoordinate2D) {
+    public func mapView(_ mapView: GMSMapView, didTapPOIWithPlaceID placeID: String, name: String, location: CLLocationCoordinate2D) {
         placeIDSelected(placeID: placeID, moveCamera: false)
     }
 }
