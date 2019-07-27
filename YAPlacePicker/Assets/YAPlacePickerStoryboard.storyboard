@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +12,7 @@
         <!--Place PickerVC-->
         <scene sceneID="pBM-87-X7h">
             <objects>
-                <viewController storyboardIdentifier="YAPlacePickerVC" id="c90-4Q-Jim" customClass="YAPlacePickerVC" customModule="YAPP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YAPlacePickerVC" id="c90-4Q-Jim" customClass="YAPlacePickerVC" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3cd-Bo-dUr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
