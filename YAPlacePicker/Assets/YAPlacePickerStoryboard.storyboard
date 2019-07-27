@@ -25,7 +25,7 @@
                                 <rect key="frame" x="20" y="59" width="374" height="45"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="qbV-HI-Uc2">
-                                        <rect key="frame" x="10" y="0.0" width="302" height="45"/>
+                                        <rect key="frame" x="10" y="0.0" width="309" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="U8e-yc-1JL"/>
                                         </constraints>
@@ -34,16 +34,17 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rue-cJ-9ii">
-                                        <rect key="frame" x="322" y="0.0" width="52" height="45"/>
+                                        <rect key="frame" x="329" y="0.0" width="45" height="45"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="52" id="F5d-x6-Exa"/>
+                                            <constraint firstAttribute="height" constant="45" id="BXb-ly-FdK"/>
+                                            <constraint firstAttribute="width" constant="45" id="F5d-x6-Exa"/>
                                         </constraints>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                        <inset key="contentEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
                                         <state key="normal" image="cancel50.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUv-5j-29F" userLabel="Erase Button">
-                                        <rect key="frame" x="322" y="0.0" width="52" height="45"/>
-                                        <inset key="contentEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                        <rect key="frame" x="329" y="0.0" width="45" height="45"/>
+                                        <inset key="contentEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
                                         <state key="normal" image="erase.png"/>
                                     </button>
                                 </subviews>
@@ -52,15 +53,14 @@
                                     <constraint firstAttribute="height" constant="45" id="3eu-63-PrT"/>
                                     <constraint firstItem="yUv-5j-29F" firstAttribute="height" secondItem="Rue-cJ-9ii" secondAttribute="height" id="3uV-yO-OIV"/>
                                     <constraint firstItem="qbV-HI-Uc2" firstAttribute="centerY" secondItem="1p1-GY-c9a" secondAttribute="centerY" id="4VZ-Wq-K2t"/>
+                                    <constraint firstItem="Rue-cJ-9ii" firstAttribute="centerY" secondItem="1p1-GY-c9a" secondAttribute="centerY" id="67b-Go-LEE"/>
                                     <constraint firstItem="qbV-HI-Uc2" firstAttribute="leading" secondItem="1p1-GY-c9a" secondAttribute="leading" constant="10" id="DgY-1k-eDW"/>
-                                    <constraint firstAttribute="bottom" secondItem="Rue-cJ-9ii" secondAttribute="bottom" id="JSW-Yr-xEp"/>
                                     <constraint firstItem="Rue-cJ-9ii" firstAttribute="leading" secondItem="qbV-HI-Uc2" secondAttribute="trailing" constant="10" id="OR1-Qx-qo4"/>
                                     <constraint firstItem="yUv-5j-29F" firstAttribute="centerX" secondItem="Rue-cJ-9ii" secondAttribute="centerX" id="QD8-ac-eF2"/>
                                     <constraint firstItem="qbV-HI-Uc2" firstAttribute="height" secondItem="1p1-GY-c9a" secondAttribute="height" id="T0B-aw-SU1"/>
                                     <constraint firstItem="yUv-5j-29F" firstAttribute="width" secondItem="Rue-cJ-9ii" secondAttribute="width" id="fHW-kO-zBl"/>
                                     <constraint firstItem="yUv-5j-29F" firstAttribute="centerY" secondItem="Rue-cJ-9ii" secondAttribute="centerY" id="gy4-aM-h5b"/>
                                     <constraint firstAttribute="trailing" secondItem="Rue-cJ-9ii" secondAttribute="trailing" id="iLG-xe-qXs"/>
-                                    <constraint firstItem="Rue-cJ-9ii" firstAttribute="top" secondItem="1p1-GY-c9a" secondAttribute="top" id="yhb-to-bUd"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPd-s1-0XF" userLabel="Search Results Background View">

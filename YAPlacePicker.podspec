@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YAPlacePicker'
-  s.version          = '0.4.1'
+  s.version          = '0.4.2'
   s.summary          = 'Yet Another Place Picker for Google Maps'
 
 # This description is used to generate tags and improve search results.
