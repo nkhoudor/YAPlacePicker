@@ -11,16 +11,15 @@ import YAPlacePicker
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        TestService.doSomething()
-        // Do any additional setup after loading the view, typically from a nib.
+    public static let gmsApiKey = ""
+    
+    @IBAction func pickPlacePressed(_ sender: Any) {
+        if ViewController.gmsApiKey.isEmpty {
+            fatalError("Plese fill APIKEY")
+        }
+        YAPlacePickerBuilder(baseVC: self, gmsApiKey: ViewController.gmsApiKey, completion: { place in
+            print(place)
+        }).show()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

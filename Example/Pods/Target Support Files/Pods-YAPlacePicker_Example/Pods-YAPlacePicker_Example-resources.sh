@@ -98,9 +98,29 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle"
+  install_resource "${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/cancel50.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/erase.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PlaceInfoView.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/powered_by_google_on_white@2x.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/ResultTableViewCell.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_g.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_y.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/YAPlacePickerStoryboard.storyboard"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle"
+  install_resource "${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/cancel50.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/erase.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PlaceInfoView.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/powered_by_google_on_white@2x.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/ResultTableViewCell.xib"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_g.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_y.png"
+  install_resource "${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/YAPlacePickerStoryboard.storyboard"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

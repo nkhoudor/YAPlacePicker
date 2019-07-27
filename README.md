@@ -9,9 +9,7 @@
 
 ## Example
 
-Example project is still in development.
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. Also you need to provide APIKEY inside ViewController.
 
 ## Requirements
 

@@ -171,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				801F0A765CD4FF32EF7C942A /* [CP] Copy Pods Resources */,
+				A3D2EF25BE281F126A9D0546 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,16 +296,60 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YAPlacePicker_Example/Pods-YAPlacePicker_Example-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/cancel50.png",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/erase.png",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PlaceInfoView.xib",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/powered_by_google_on_white@2x.png",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/ResultTableViewCell.xib",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_g.png",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/star_y.png",
+				"${PODS_ROOT}/YAPlacePicker/YAPlacePicker/Assets/YAPlacePickerStoryboard.storyboard",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cancel50.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/erase.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlaceInfoView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PoweredByGoogleTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/powered_by_google_on_white@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ResultTableViewCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/star_g.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/star_y.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YAPlacePickerStoryboard.storyboardc",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YAPlacePicker_Example/Pods-YAPlacePicker_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D2EF25BE281F126A9D0546 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YAPlacePicker_Example/Pods-YAPlacePicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YAPlacePicker_Example/Pods-YAPlacePicker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E73A3254085C0A8EAE0BCDDB /* [CP] Check Pods Manifest.lock */ = {
