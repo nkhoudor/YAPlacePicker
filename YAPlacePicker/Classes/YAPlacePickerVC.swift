@@ -12,7 +12,7 @@ import GooglePlaces
 import RxSwift
 import RxCocoa
 
-class YAPlacePickerVC: UIViewController {
+public class YAPlacePickerVC: UIViewController {
 
     public static let storyboardId = "YAPlacePickerVC"
     public static let storyboardName = "YAPlacePickerStoryboard"
@@ -69,7 +69,7 @@ class YAPlacePickerVC: UIViewController {
         placeInfoView.place = nil
     }
     
-    override func viewDidLoad() {
+    override internal func viewDidLoad() {
         super.viewDidLoad()
         initPlaceInfo()
         customizeUI()
@@ -209,7 +209,7 @@ class YAPlacePickerVC: UIViewController {
         }).disposed(by: disposeBag)
     }
     
-    override func viewDidLayoutSubviews() {
+    override internal func viewDidLayoutSubviews() {
         mapView.padding = UIEdgeInsets(top: 0, left: 0, bottom: placeInfoView.frame.height, right: 0)
     }
     
