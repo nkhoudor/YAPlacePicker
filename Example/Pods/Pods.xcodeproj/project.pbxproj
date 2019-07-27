@@ -28,6 +28,17 @@
 		60D1E1CA1028CCDEBFA845FCFB75BB35 /* Pods-YAPlacePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB64264D7A8DB7579C6E52AC64A6841 /* Pods-YAPlacePicker_Tests-dummy.m */; };
 		6466370DA862F44E5EF73212BDA499BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		64BADB29BAF40F25BC2B08B3C71FA4D6 /* YAPlacePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668AEF2322C8A3587F2EB419386404EA /* YAPlacePicker-dummy.m */; };
+		841FFB5922EC6A3900085BCC /* TEstServ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB5822EC6A3900085BCC /* TEstServ.swift */; };
+		841FFB5E22EC6B9300085BCC /* PlaceInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */; };
+		841FFB5F22EC6B9300085BCC /* PoweredByGoogleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */; };
+		841FFB6022EC6B9800085BCC /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB5422EC67BB00085BCC /* ResultTableViewCell.swift */; };
+		841FFB6122EC6B9800085BCC /* PoweredByGoogleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB5522EC67BB00085BCC /* PoweredByGoogleTableViewCell.swift */; };
+		841FFB6322EC6B9E00085BCC /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */; };
+		841FFB6422EC6B9E00085BCC /* YAPlacePickerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */; };
+		841FFB6522EC6B9E00085BCC /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB3F22EBBFCD00085BCC /* Icons.xcassets */; };
+		841FFB6622EC6B9E00085BCC /* YAPlacePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */; };
+		841FFB6722EC6B9E00085BCC /* YAPlacePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */; };
+		841FFB6822EC6BA200085BCC /* PlaceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */; };
 		B09B73FC8E56D706BEE286178A4E03CC /* Pods-YAPlacePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ACFFE542837E18296B1FA00BAFA85E /* Pods-YAPlacePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -89,6 +100,7 @@
 		841FFB5522EC67BB00085BCC /* PoweredByGoogleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoweredByGoogleTableViewCell.swift; sourceTree = "<group>"; };
 		841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PoweredByGoogleTableViewCell.xib; path = YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib; sourceTree = "<group>"; };
 		841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaceInfoView.xib; path = YAPlacePicker/Assets/PlaceInfoView.xib; sourceTree = "<group>"; };
+		841FFB5822EC6A3900085BCC /* TEstServ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TEstServ.swift; path = YAPlacePicker/Classes/TEstServ.swift; sourceTree = "<group>"; };
 		8455F8694060F20EFF4CF5187CB774A5 /* Pods-YAPlacePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YAPlacePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8876F70FD5FBB312D68E21685B71637B /* YAPlacePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YAPlacePicker.xcconfig; sourceTree = "<group>"; };
 		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
@@ -200,6 +212,7 @@
 				1EE9DE30F442571574B163C94724EB42 /* Pod */,
 				FD925D2AFFF3E33BFF0166B51305182A /* Support Files */,
 				841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */,
+				841FFB5822EC6A3900085BCC /* TEstServ.swift */,
 			);
 			name = YAPlacePicker;
 			path = ../..;
@@ -460,6 +473,9 @@
 					BCE3DE68053C99B18AAD56BE1F98BD73 = {
 						LastSwiftMigration = 1020;
 					};
+					E4F0A3E58CCE01AEA076F781B70A1743 = {
+						LastSwiftMigration = 1020;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -502,6 +518,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841FFB5F22EC6B9300085BCC /* PoweredByGoogleTableViewCell.xib in Resources */,
+				841FFB5E22EC6B9300085BCC /* PlaceInfoView.xib in Resources */,
+				841FFB6322EC6B9E00085BCC /* ResultTableViewCell.xib in Resources */,
+				841FFB6422EC6B9E00085BCC /* YAPlacePickerStoryboard.storyboard in Resources */,
+				841FFB6522EC6B9E00085BCC /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4039983F7FA4E14AE799154A60249B7D /* Pods-YAPlacePicker_Example-dummy.m in Sources */,
+				841FFB5922EC6A3900085BCC /* TEstServ.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +550,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841FFB6122EC6B9800085BCC /* PoweredByGoogleTableViewCell.swift in Sources */,
+				841FFB6022EC6B9800085BCC /* ResultTableViewCell.swift in Sources */,
 				64BADB29BAF40F25BC2B08B3C71FA4D6 /* YAPlacePicker-dummy.m in Sources */,
+				841FFB6622EC6B9E00085BCC /* YAPlacePicker.swift in Sources */,
+				841FFB6822EC6BA200085BCC /* PlaceInfoView.swift in Sources */,
+				841FFB6722EC6B9E00085BCC /* YAPlacePickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,6 +594,7 @@
 			baseConfigurationReference = 977B95C55E927D0159B1086EF22AA11E /* Pods-YAPlacePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -590,6 +618,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -695,6 +725,7 @@
 			baseConfigurationReference = 8F25EB0AF36B9C2E51E3506D1DDB8406 /* Pods-YAPlacePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -718,6 +749,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
