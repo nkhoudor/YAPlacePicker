@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/YAPlacePicker.svg?style=flat)](https://cocoapods.org/pods/YAPlacePicker)
 [![Platform](https://img.shields.io/cocoapods/p/YAPlacePicker.svg?style=flat)](https://cocoapods.org/pods/YAPlacePicker)
 
+
+<iframe src='https://gfycat.com/ifr/VigilantInfiniteAngelwingmussel' frameborder='0' scrolling='no' allowfullscreen width='640' height='1182'></iframe>
+
 ## Example
 
 Example project is still in development.
