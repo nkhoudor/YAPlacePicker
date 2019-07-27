@@ -11,6 +11,6 @@ import UIKit
 public class ResultTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var placeName: UILabel!
-    @IBOutlet weak var placeDesc: UILabel!
+    @IBOutlet public weak var placeName: UILabel!
+    @IBOutlet public weak var placeDesc: UILabel!
 }
