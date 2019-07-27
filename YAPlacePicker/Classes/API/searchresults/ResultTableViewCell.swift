@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ResultTableViewCell: UITableViewCell {
+public class ResultTableViewCell: UITableViewCell {
 
     
     @IBOutlet weak var placeName: UILabel!
