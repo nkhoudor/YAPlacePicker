@@ -53,22 +53,6 @@ public class YAPlacePickerVC: UIViewController {
     public var chooseButtonText: String!
     public var chooseButtonColor: UIColor?
     
-    private func initPlaceInfo() {
-        placeInfoView = PlaceInfoView.instanceFromNib()
-        placeInfoView.delegate = self
-        placeInfoView.choosebutton.setTitle(chooseButtonText, for: .normal)
-        if let bgColor = chooseButtonColor {
-            placeInfoView.choosebutton.backgroundColor = bgColor
-        }
-        placeInfoView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(placeInfoView)
-        let left = NSLayoutConstraint(item: placeInfoView!, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1, constant: 0)
-        let right = NSLayoutConstraint(item: placeInfoView!, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1, constant: 0)
-        let bottom = NSLayoutConstraint(item: placeInfoView!, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 0)
-        view.addConstraints([left, right, bottom])
-        placeInfoView.place = nil
-    }
-    
     override public func viewDidLoad() {
         super.viewDidLoad()
         initPlaceInfo()
@@ -256,6 +240,22 @@ public class YAPlacePickerVC: UIViewController {
             marker.map = nil
             placeMarker = nil
         }
+    }
+    
+    private func initPlaceInfo() {
+        placeInfoView = PlaceInfoView.instanceFromNib()
+        placeInfoView.delegate = self
+        placeInfoView.choosebutton.setTitle(chooseButtonText, for: .normal)
+        if let bgColor = chooseButtonColor {
+            placeInfoView.choosebutton.backgroundColor = bgColor
+        }
+        placeInfoView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(placeInfoView)
+        let left = NSLayoutConstraint(item: placeInfoView!, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1, constant: 0)
+        let right = NSLayoutConstraint(item: placeInfoView!, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1, constant: 0)
+        let bottom = NSLayoutConstraint(item: placeInfoView!, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 0)
+        view.addConstraints([left, right, bottom])
+        placeInfoView.place = nil
     }
     
     private func customizeUI() {
