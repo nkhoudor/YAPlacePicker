@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-
+You need to have APIKEY for Google Maps and Google Places. If you don't have it please check here: https://developers.google.com/maps/documentation/ios-sdk/get-api-key
 
 ## How to use?
 
