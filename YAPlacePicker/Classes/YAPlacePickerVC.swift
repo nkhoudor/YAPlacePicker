@@ -69,7 +69,7 @@ public class YAPlacePickerVC: UIViewController {
         placeInfoView.place = nil
     }
     
-    override internal func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         initPlaceInfo()
         customizeUI()
@@ -209,7 +209,7 @@ public class YAPlacePickerVC: UIViewController {
         }).disposed(by: disposeBag)
     }
     
-    override internal func viewDidLayoutSubviews() {
+    override public func viewDidLayoutSubviews() {
         mapView.padding = UIEdgeInsets(top: 0, left: 0, bottom: placeInfoView.frame.height, right: 0)
     }
     
