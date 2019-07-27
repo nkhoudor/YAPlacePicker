@@ -43,7 +43,8 @@ public class YAPlacePickerBuilder {
     }
     
     public func show() {
-        let storyboard = UIStoryboard(name: YAPlacePickerVC.storyboardName, bundle: nil)
+        let bundle = Bundle(for: YAPlacePickerVC.self)
+        let storyboard = UIStoryboard(name: YAPlacePickerVC.storyboardName, bundle: bundle)
         let vc = storyboard.instantiateViewController(withIdentifier: YAPlacePickerVC.storyboardId) as! YAPlacePickerVC
         GMSServices.provideAPIKey(gmsApiKey)
         GMSPlacesClient.provideAPIKey(gmsApiKey)

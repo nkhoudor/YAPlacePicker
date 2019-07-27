@@ -78,6 +78,7 @@ class PlaceInfoView: UIView {
     }
     
     class func instanceFromNib() -> PlaceInfoView {
-        return UINib(nibName: "PlaceInfoView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! PlaceInfoView
+        let bundle = Bundle(for: PlaceInfoView.self)
+        return UINib(nibName: "PlaceInfoView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as! PlaceInfoView
     }
 }

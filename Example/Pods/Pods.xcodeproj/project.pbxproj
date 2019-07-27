@@ -29,7 +29,6 @@
 		6466370DA862F44E5EF73212BDA499BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		64BADB29BAF40F25BC2B08B3C71FA4D6 /* YAPlacePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668AEF2322C8A3587F2EB419386404EA /* YAPlacePicker-dummy.m */; };
 		B09B73FC8E56D706BEE286178A4E03CC /* Pods-YAPlacePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ACFFE542837E18296B1FA00BAFA85E /* Pods-YAPlacePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BB7DF8E9BBCB9C7BF9A79656E66F1AD6 /* TestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5012F9BE476D3452BADF1BAA265BD8D2 /* TestService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +70,6 @@
 		48239A02811E9BECBE8870EE306617DE /* Pods-YAPlacePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YAPlacePicker_Example-Info.plist"; sourceTree = "<group>"; };
 		4CE7425A0068C83B35151DC8B4214764 /* Pods-YAPlacePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YAPlacePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E22DE24E7918B1494C043D78ECB4C8F /* Pods-YAPlacePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YAPlacePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		5012F9BE476D3452BADF1BAA265BD8D2 /* TestService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestService.swift; path = YAPlacePicker/Classes/TestService.swift; sourceTree = "<group>"; };
 		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		54ACFFE542837E18296B1FA00BAFA85E /* Pods-YAPlacePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YAPlacePicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
@@ -80,17 +78,17 @@
 		668AEF2322C8A3587F2EB419386404EA /* YAPlacePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YAPlacePicker-dummy.m"; sourceTree = "<group>"; };
 		67B4C0ECF7B42342DCBD5F54C891F718 /* Pods-YAPlacePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YAPlacePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E0FFF0B82F3741C6961D1A1706220FC /* Pods-YAPlacePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YAPlacePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		841FFB3422EBBF9300085BCC /* PoweredByGoogleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoweredByGoogleTableViewCell.xib; sourceTree = "<group>"; };
-		841FFB3622EBBF9300085BCC /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
-		841FFB3722EBBF9300085BCC /* PoweredByGoogleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoweredByGoogleTableViewCell.swift; sourceTree = "<group>"; };
 		841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceInfoView.swift; sourceTree = "<group>"; };
-		841FFB3A22EBBF9300085BCC /* PlaceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceInfoView.xib; sourceTree = "<group>"; };
 		841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleMaps-Bridging-Header.h"; sourceTree = "<group>"; };
 		841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePickerVC.swift; path = YAPlacePicker/Classes/YAPlacePickerVC.swift; sourceTree = "<group>"; };
 		841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePicker.swift; path = YAPlacePicker/Classes/YAPlacePicker.swift; sourceTree = "<group>"; };
 		841FFB3F22EBBFCD00085BCC /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = YAPlacePicker/Assets/Icons.xcassets; sourceTree = "<group>"; };
 		841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YAPlacePickerStoryboard.storyboard; path = YAPlacePicker/Assets/YAPlacePickerStoryboard.storyboard; sourceTree = "<group>"; };
 		841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultTableViewCell.xib; path = YAPlacePicker/Assets/ResultTableViewCell.xib; sourceTree = "<group>"; };
+		841FFB5422EC67BB00085BCC /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		841FFB5522EC67BB00085BCC /* PoweredByGoogleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoweredByGoogleTableViewCell.swift; sourceTree = "<group>"; };
+		841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PoweredByGoogleTableViewCell.xib; path = YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib; sourceTree = "<group>"; };
+		841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaceInfoView.xib; path = YAPlacePicker/Assets/PlaceInfoView.xib; sourceTree = "<group>"; };
 		8455F8694060F20EFF4CF5187CB774A5 /* Pods-YAPlacePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YAPlacePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8876F70FD5FBB312D68E21685B71637B /* YAPlacePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YAPlacePicker.xcconfig; sourceTree = "<group>"; };
 		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
@@ -190,14 +188,15 @@
 		63389C88BE6F5363A651C287D16514CC /* YAPlacePicker */ = {
 			isa = PBXGroup;
 			children = (
+				841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */,
+				841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */,
+				841FFB5322EC67BB00085BCC /* searchresults */,
 				841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */,
 				841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */,
 				841FFB3F22EBBFCD00085BCC /* Icons.xcassets */,
 				841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */,
 				841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */,
-				841FFB3222EBBF9300085BCC /* API */,
 				841FFB3822EBBF9300085BCC /* PlaceInfo */,
-				5012F9BE476D3452BADF1BAA265BD8D2 /* TestService.swift */,
 				1EE9DE30F442571574B163C94724EB42 /* Pod */,
 				FD925D2AFFF3E33BFF0166B51305182A /* Support Files */,
 				841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */,
@@ -256,33 +255,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		841FFB3222EBBF9300085BCC /* API */ = {
-			isa = PBXGroup;
-			children = (
-				841FFB3322EBBF9300085BCC /* searchresults */,
-			);
-			name = API;
-			path = YAPlacePicker/Classes/API;
-			sourceTree = "<group>";
-		};
-		841FFB3322EBBF9300085BCC /* searchresults */ = {
-			isa = PBXGroup;
-			children = (
-				841FFB3422EBBF9300085BCC /* PoweredByGoogleTableViewCell.xib */,
-				841FFB3622EBBF9300085BCC /* ResultTableViewCell.swift */,
-				841FFB3722EBBF9300085BCC /* PoweredByGoogleTableViewCell.swift */,
-			);
-			path = searchresults;
-			sourceTree = "<group>";
-		};
 		841FFB3822EBBF9300085BCC /* PlaceInfo */ = {
 			isa = PBXGroup;
 			children = (
 				841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */,
-				841FFB3A22EBBF9300085BCC /* PlaceInfoView.xib */,
 			);
 			name = PlaceInfo;
 			path = YAPlacePicker/Classes/PlaceInfo;
+			sourceTree = "<group>";
+		};
+		841FFB5322EC67BB00085BCC /* searchresults */ = {
+			isa = PBXGroup;
+			children = (
+				841FFB5422EC67BB00085BCC /* ResultTableViewCell.swift */,
+				841FFB5522EC67BB00085BCC /* PoweredByGoogleTableViewCell.swift */,
+			);
+			name = searchresults;
+			path = YAPlacePicker/Classes/searchresults;
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -539,7 +528,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB7DF8E9BBCB9C7BF9A79656E66F1AD6 /* TestService.swift in Sources */,
 				64BADB29BAF40F25BC2B08B3C71FA4D6 /* YAPlacePicker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
