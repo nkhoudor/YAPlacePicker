@@ -23,6 +23,16 @@ Add this to Info.plist
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>Your location is required to see places close to you</string>
 ```
+Add this code where you want YAPlaceLicker to be opened
+
+```swift
+
+//baseVC - UIViewController from which you want to open YAPlacePicker
+
+YAPlacePickerBuilder(baseVC: self, gmsApiKey: ".........", completion: { place in
+print(place)
+}).show()
+```
 
 ## Installation
 
