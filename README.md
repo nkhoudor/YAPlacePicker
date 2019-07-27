@@ -7,9 +7,22 @@
 
 ## Example
 
+Example project is still in development.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+
+
+## How to use?
+
+Add this to Info.plist
+
+```xml
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Your location is required to see places close to you</string>
+```
 
 ## Installation
 
@@ -22,7 +35,7 @@ pod 'YAPlacePicker'
 
 ## Author
 
-7633277@gmail.com, 7633277@gmail.com
+Nikita Khudorozhkov, 7633277@gmail.com
 
 ## License
 

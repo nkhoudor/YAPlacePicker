@@ -297,6 +297,7 @@ extension YAPlacePickerVC: CLLocationManagerDelegate {
 extension YAPlacePickerVC: PlaceInfoViewDelegate {
     public func placeChoosen(place: GMSPlace) {
         completion(place)
+        dismiss(animated: true)
     }
 }
 
