@@ -34,11 +34,13 @@ class PlaceInfoView: UIView {
     private let disposeBag = DisposeBag()
     
     private lazy var yellowStar : UIImage = {
-        return UIImage(named: "star_yellow")!
+        let bundle = Bundle(for: PlaceInfoView.self)
+        return UIImage(named: "star_yellow", in: bundle, compatibleWith: nil)!
     }()
     
     private lazy var greyStar : UIImage = {
-        return UIImage(named: "star_grey")!
+        let bundle = Bundle(for: PlaceInfoView.self)
+        return UIImage(named: "star_grey", in: bundle, compatibleWith: nil)!
     }()
     
     var place : GMSPlace? {
