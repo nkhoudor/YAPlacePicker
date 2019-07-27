@@ -35,10 +35,14 @@
 		841FFB6122EC6B9800085BCC /* PoweredByGoogleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB5522EC67BB00085BCC /* PoweredByGoogleTableViewCell.swift */; };
 		841FFB6322EC6B9E00085BCC /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */; };
 		841FFB6422EC6B9E00085BCC /* YAPlacePickerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */; };
-		841FFB6522EC6B9E00085BCC /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB3F22EBBFCD00085BCC /* Icons.xcassets */; };
 		841FFB6622EC6B9E00085BCC /* YAPlacePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */; };
 		841FFB6722EC6B9E00085BCC /* YAPlacePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */; };
 		841FFB6822EC6BA200085BCC /* PlaceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FFB3922EBBF9300085BCC /* PlaceInfoView.swift */; };
+		841FFB7322EC889400085BCC /* cancel50.png in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB6D22EC87DF00085BCC /* cancel50.png */; };
+		841FFB7422EC889400085BCC /* erase.png in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB6B22EC87DE00085BCC /* erase.png */; };
+		841FFB7522EC889400085BCC /* powered_by_google_on_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB6922EC87DE00085BCC /* powered_by_google_on_white@2x.png */; };
+		841FFB7622EC889400085BCC /* star_g.png in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB6A22EC87DE00085BCC /* star_g.png */; };
+		841FFB7722EC889400085BCC /* star_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 841FFB6C22EC87DE00085BCC /* star_y.png */; };
 		B09B73FC8E56D706BEE286178A4E03CC /* Pods-YAPlacePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ACFFE542837E18296B1FA00BAFA85E /* Pods-YAPlacePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -93,7 +97,6 @@
 		841FFB3B22EBBFB500085BCC /* GoogleMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleMaps-Bridging-Header.h"; sourceTree = "<group>"; };
 		841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePickerVC.swift; path = YAPlacePicker/Classes/YAPlacePickerVC.swift; sourceTree = "<group>"; };
 		841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YAPlacePicker.swift; path = YAPlacePicker/Classes/YAPlacePicker.swift; sourceTree = "<group>"; };
-		841FFB3F22EBBFCD00085BCC /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Icons.xcassets; path = YAPlacePicker/Assets/Icons.xcassets; sourceTree = "<group>"; };
 		841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YAPlacePickerStoryboard.storyboard; path = YAPlacePicker/Assets/YAPlacePickerStoryboard.storyboard; sourceTree = "<group>"; };
 		841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ResultTableViewCell.xib; path = YAPlacePicker/Assets/ResultTableViewCell.xib; sourceTree = "<group>"; };
 		841FFB5422EC67BB00085BCC /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
@@ -101,6 +104,11 @@
 		841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PoweredByGoogleTableViewCell.xib; path = YAPlacePicker/Assets/PoweredByGoogleTableViewCell.xib; sourceTree = "<group>"; };
 		841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaceInfoView.xib; path = YAPlacePicker/Assets/PlaceInfoView.xib; sourceTree = "<group>"; };
 		841FFB5822EC6A3900085BCC /* TEstServ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TEstServ.swift; path = YAPlacePicker/Classes/TEstServ.swift; sourceTree = "<group>"; };
+		841FFB6922EC87DE00085BCC /* powered_by_google_on_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "powered_by_google_on_white@2x.png"; path = "YAPlacePicker/Assets/powered_by_google_on_white@2x.png"; sourceTree = "<group>"; };
+		841FFB6A22EC87DE00085BCC /* star_g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_g.png; path = YAPlacePicker/Assets/star_g.png; sourceTree = "<group>"; };
+		841FFB6B22EC87DE00085BCC /* erase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = erase.png; path = YAPlacePicker/Assets/erase.png; sourceTree = "<group>"; };
+		841FFB6C22EC87DE00085BCC /* star_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_y.png; path = YAPlacePicker/Assets/star_y.png; sourceTree = "<group>"; };
+		841FFB6D22EC87DF00085BCC /* cancel50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cancel50.png; path = YAPlacePicker/Assets/cancel50.png; sourceTree = "<group>"; };
 		8455F8694060F20EFF4CF5187CB774A5 /* Pods-YAPlacePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YAPlacePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8876F70FD5FBB312D68E21685B71637B /* YAPlacePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YAPlacePicker.xcconfig; sourceTree = "<group>"; };
 		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
@@ -200,12 +208,16 @@
 		63389C88BE6F5363A651C287D16514CC /* YAPlacePicker */ = {
 			isa = PBXGroup;
 			children = (
+				841FFB6D22EC87DF00085BCC /* cancel50.png */,
+				841FFB6B22EC87DE00085BCC /* erase.png */,
+				841FFB6922EC87DE00085BCC /* powered_by_google_on_white@2x.png */,
+				841FFB6A22EC87DE00085BCC /* star_g.png */,
+				841FFB6C22EC87DE00085BCC /* star_y.png */,
 				841FFB5722EC67CF00085BCC /* PlaceInfoView.xib */,
 				841FFB5622EC67CF00085BCC /* PoweredByGoogleTableViewCell.xib */,
 				841FFB5322EC67BB00085BCC /* searchresults */,
 				841FFB4122EC64B800085BCC /* ResultTableViewCell.xib */,
 				841FFB4022EBC8AD00085BCC /* YAPlacePickerStoryboard.storyboard */,
-				841FFB3F22EBBFCD00085BCC /* Icons.xcassets */,
 				841FFB3E22EBBFB600085BCC /* YAPlacePicker.swift */,
 				841FFB3C22EBBFB500085BCC /* YAPlacePickerVC.swift */,
 				841FFB3822EBBF9300085BCC /* PlaceInfo */,
@@ -519,10 +531,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				841FFB5F22EC6B9300085BCC /* PoweredByGoogleTableViewCell.xib in Resources */,
+				841FFB7722EC889400085BCC /* star_y.png in Resources */,
+				841FFB7522EC889400085BCC /* powered_by_google_on_white@2x.png in Resources */,
+				841FFB7322EC889400085BCC /* cancel50.png in Resources */,
+				841FFB7422EC889400085BCC /* erase.png in Resources */,
 				841FFB5E22EC6B9300085BCC /* PlaceInfoView.xib in Resources */,
+				841FFB7622EC889400085BCC /* star_g.png in Resources */,
 				841FFB6322EC6B9E00085BCC /* ResultTableViewCell.xib in Resources */,
 				841FFB6422EC6B9E00085BCC /* YAPlacePickerStoryboard.storyboard in Resources */,
-				841FFB6522EC6B9E00085BCC /* Icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

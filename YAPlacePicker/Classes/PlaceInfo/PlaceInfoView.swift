@@ -35,12 +35,12 @@ class PlaceInfoView: UIView {
     
     private lazy var yellowStar : UIImage = {
         let bundle = Bundle(for: PlaceInfoView.self)
-        return UIImage(named: "star_yellow", in: bundle, compatibleWith: nil)!
+        return UIImage(named: "star_y.png", in: bundle, compatibleWith: nil)!
     }()
     
     private lazy var greyStar : UIImage = {
         let bundle = Bundle(for: PlaceInfoView.self)
-        return UIImage(named: "star_grey", in: bundle, compatibleWith: nil)!
+        return UIImage(named: "star_g.png", in: bundle, compatibleWith: nil)!
     }()
     
     var place : GMSPlace? {

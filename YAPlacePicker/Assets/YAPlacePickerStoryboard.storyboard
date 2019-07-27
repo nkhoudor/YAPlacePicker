@@ -38,11 +38,11 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="52" id="F5d-x6-Exa"/>
                                         </constraints>
-                                        <state key="normal" image="cancel"/>
+                                        <state key="normal" image="cancel50.png"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUv-5j-29F" userLabel="Erase Button">
                                         <rect key="frame" x="322" y="0.0" width="52" height="45"/>
-                                        <state key="normal" image="erase"/>
+                                        <state key="normal" image="erase.png"/>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -124,7 +124,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cancel" width="25" height="25"/>
-        <image name="erase" width="25" height="25"/>
+        <image name="cancel50.png" width="37.5" height="37.5"/>
+        <image name="erase.png" width="12" height="12"/>
     </resources>
 </document>
