@@ -277,7 +277,7 @@ public class YAPlacePickerVC: UIViewController {
 
 extension YAPlacePickerVC: CLLocationManagerDelegate {
     public func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        guard status == .authorizedWhenInUse else {
+        guard status == .authorizedWhenInUse || status == .authorizedAlways else {
             return
         }
         locationManager.startUpdatingLocation()
