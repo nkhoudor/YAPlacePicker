@@ -62,3 +62,7 @@ Nikita Khudorozhkov, 7633277@gmail.com
 ## License
 
 YAPlacePicker is available under the MIT license. See the LICENSE file for more info.
+
+## Contribute
+
+Please feel free to contribute with improvements.

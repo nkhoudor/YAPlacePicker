@@ -42,10 +42,10 @@ Pod::Spec.new do |s|
 
   s.dependency 'GoogleMaps'
   s.dependency 'GooglePlaces'
-  s.dependency 'RxSwift', '4.5'
-  s.dependency 'RxCocoa', '4.5'
+  s.dependency 'RxSwift', '5'
+  s.dependency 'RxCocoa', '5'
   
   s.static_framework = true
   
-  s.swift_version = '4.2'
+  s.swift_version = '5'
 end
