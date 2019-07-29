@@ -23,7 +23,7 @@ Add this to Info.plist
 <key>NSLocationWhenInUseUsageDescription</key>
 <string>Your location is required to see places close to you</string>
 ```
-Add this code where you want YAPlaceLicker to be opened
+Add this code where you want YAPlacePicker to be opened
 
 ```swift
 
